@@ -1,0 +1,115 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  height: 50px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header .btn-link {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 15px;
+}
+
+header .btn-link:hover {
+  color: #0056b3;
+}
+
+header .btn-link.active {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+header .fa-cog,
+header .fa-user-circle {
+  font-size: 1.5em;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+h5 {
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item strong {
+  display: block;
+}
+
+.list-group-item small {
+  display: block;
+  color: #6c757d;
+}
+
+.badge-success {
+  background-color: #28a745;
+}
+
+.badge-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.badge-danger {
+  background-color: #dc3545;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn-outline-secondary {
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn-outline-secondary .fas {
+  margin-right: 8px;
+}
+
+.form-text {
+  color: #6c757d;
+}
+
+.start-button {
+  display: block;
+  
+  max-width: 600px;
+  margin: 20px auto 0;
+  padding: 15px 220px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}
